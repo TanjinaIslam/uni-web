@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="'with=device-width, initial-scale=1.0">
+    <title> University Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,200;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+<script src="https://kit.fontawesome.com/6eecee007d.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="LOGO.PNG"</a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html.html">ABOUT</a></li>
+                    <li><a href="#">DEGREES</a></li>
+                    <li><a href="#">UNIVERSITIES</a></li>
+                    <li><a href="#">CONTACT</a></li>   
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>'UNIVERSITY  AGENT'</h1>
+            <p>This website will provide information about Private Universities of Bangladesh. 
+                <br>Students will be able to find out all the information about
+                <br>the university by using this website from their respective locations.</p>
+             
+        </div>
+
+    </section>
+
+<!---degree-->
+
+    <section class="course">
+        <h2>Offered Degrees</h2>
+        
+        <div class="row">
+        <div class="course-col">
+
+            <h3>Undergraduate Program</h3>
+
+            <p>The education system in Bangladesh encompasses various bachelor's 
+                <br>degree programmes with a nominal duration varying from 3 to 5 years.</p>
+
+        </div>
+
+        <div class="course-col">
+
+            <h3>Postgraduate Program</h3>
+
+            <p>It generally takes 1-2 years for completing a Master's degree in Bangladesh. 
+                <br>Earning an advanced degree, such as a Master offers the ability to increase your skillset
+                <br> and possibly improve your employment chances at the same time.</p>
+        </div>
+
+ 
+        </div>
+
+    </section>
+
+    <section class="aim">
+        <h2>Our Aim</h2>
+        <p>"The purpose of the university agent is to assist students located in any part
+            <br> of the country with sufficient information for admission to a private University."</p>
+
+    </section>
+
+<!----footer-->
+
+     <section class="footer">
+         <h4>About Us</h4>
+         <p>This website is useful for private university admission in Bangladesh.
+             <br>Thank you for staying with us.
+             <br>You can follow us on social media to know more.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook-square"></i>
+            <i class=" fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+        </div>
+     </section>
+     
+
+<!----javascript for menu-->
+
+   <script>
+       var navlinks = document.getElementById("navlinks");
+       function showmenu(){
+           navlinks.style.right="0";
+       }
+       function hidemenu(){
+           navlinks.style.right="-200px";
+       }
+          </script>
+   
+</body>
+</html>
